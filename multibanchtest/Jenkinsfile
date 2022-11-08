@@ -1,9 +1,0 @@
-pipeline {
-    agent any
-    stages {
-        stage ('Prod Environment') {
-            sh "echo MainBranch"
-            }
-        }
-    }
-}
