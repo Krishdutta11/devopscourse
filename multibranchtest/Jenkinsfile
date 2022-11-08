@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Sandbox Environment') {
+            sh "echo  SandboxBranch"
+            }
+        }
+    }
+}
