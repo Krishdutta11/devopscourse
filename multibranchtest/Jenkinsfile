@@ -1,9 +1,0 @@
-pipeline {
-    agent any
-    stages {
-        stage ('Staging Environment') {
-            sh "echo StagingBranch"
-            }
-        }
-    }
-}
